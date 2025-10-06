@@ -1,6 +1,95 @@
+* {
+    font-family: "Pixelify Sans";
+    font-optical-sizing: auto;
+    margin: 20px;
+    cursor: url("cursor.cur"), auto;
+}
+
+html {
+    margin: 0px;
+}
+
+.second {
+   background-color: rgb(234, 191, 214);
+   background-image: url("https://wallpapers.com/images/hd/pink-pixel-art-07isq1mrmpl3u55s.jpg");
+   background-repeat: repeat;
+   background-size: 150px;
+   padding:0px;
+   margin:0px;
+   
+}
+
+a {
+   margin: 0px;
+}
+
+.imgs {
+   width: 70px;
+  height: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  width: 30px;
+  margin: 0px;
+}
+
+a {
+   color: rgb(221, 189, 210);
+}
+
+.text {
+   display: inline-block;
+  margin-right: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  vertical-align: middle;
+}
+
+.text + img {
+   display: inline-block;
+  vertical-align: middle;
+  width: 30px;     /* adjust as needed */
+  height: auto;
+  margin-left: 8px;
+}
+
+#stars {
+   padding: 0px;
+   margin: 0px;
+}
+
 #canvas {
-   border: 5px solid black;
+   border: 5px solid rgb(238, 181, 221);s
    height: 500px;
    width: 900px;
    margin-bottom: 2em;
+   padding: 20px;
+   margin: 20px;
+}
+
+br {
+   size: 100px;
+}
+
+button {
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   border-radius: 20px;
+   border: none;
+   background-color:rgb(235, 208, 226);
+}
+
+
+input[type="range"] {
+  accent-color: rgb(235, 208, 226);
+}
+
+input {
+   margin-left: 5px;
+}
+
+label {
+   margin-right: 0px;
 }
