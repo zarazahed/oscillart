@@ -1,7 +1,7 @@
 # wavinator
 made for hackclub ysws oscillart
 
-hello! this is my project wavinator, and it took me almost exactly 5hrs to make!! :>
+hello! this is my project wavinator, and it took me around 5hrs to make!! :>
 
 i used javascript, html, and css to create this. here's how YOU can use it!
 
