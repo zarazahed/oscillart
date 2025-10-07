@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>Oscillart</title>
-    <link href="style.css" rel="stylesheet"/>
+    <link href="style.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
 
     <br>
@@ -18,25 +20,29 @@
         <br>
     </div>
 
-<p>꒷꒦︶꒷꒦︶ ๋ ࣭ ⭑꒷꒦꒷</p>
+    <p>꒷꒦︶꒷꒦︶ ๋ ࣭ ⭑꒷꒦꒷</p>
 
-    <h1 class="text">⋆✩｡♪ ₊ oscillart  ˚♬ ﾟ.</h1>
-    <img class="imgs" src="https://i.pinimg.com/736x/24/dd/71/24dd718c9d70c0abde06972b34dca35c.jpg">
+    <h1 class="text">⋆✩｡♪ ₊ oscillart ˚♬ ﾟ.</h1>
+    <img class="imgs" src="images (2).jpeg">
     <br>
     <h6 class="text">project by zara zahed!! ♡‧₊˚</h6>
-    <img class="imgs" src="https://i.pinimg.com/736x/47/d3/95/47d395f09efe7478fcacb12c487b9661.jpg">
+    <img class="imgs" src="images (1).jpeg">
 
     <p>. ݁₊ ⊹ . ݁ ⟡ ݁ . ⊹ ₊ ݁. ꧁⎝ 𓆩༺✧༻𓆪 ⎠꧂ . ݁₊ ⊹ . ݁ ⟡ ݁ . ⊹ ₊ ݁.</p>
 
-    <p class="text">⋆˚꩜｡ hello there! this is a project i made for hack club's athena award based on <a href="https://oscillart.athena.hackclub.com/">this tutorial!</a> ✧˖°.ᐟ</p>
+    <p class="text">⋆˚꩜｡ hello there! this is a project i made for hack club's athena award based on <a
+            href="https://oscillart.athena.hackclub.com/">this tutorial!</a> ✧˖°.ᐟ</p>
     <br>
     <p class="text">╰┈➤ ⋮ ⌗ ࣪ ˖ ┆ here's how to use this website:</p>
     <ul>
-        <li class="text">.𖥔 ݁ ˖ » type in notes into the text box to generate the melody  ( like C, B, E, G, etc )  ᯓᝰ‧₊˚</li>
+        <li class="text">.𖥔 ݁ ˖ » type in notes into the text box to generate the melody ( like C, B, E, G, etc ) ᯓᝰ‧₊˚
+        </li>
         <br>
         <li class="text">.𖥔 ݁ ˖ » use the color picker to choose what color the sine waves will be ✶⋆.˚</li>
         <br>
         <li class="text">.𖥔 ݁ ˖ » change the volume with the slider ‧₊˚♪ 𝄞₊˚⊹</li>
+        <br>
+        <li class="text">.𖥔 ݁ ˖ » choose a type of sound in the dropdown ⋆.˚ ☾⭒.˚</li>
         <br>
         <li class="text">.𖥔 ݁ ˖ » press that submit button .ᐟ.ᐟ (˶˃ ᵕ ˂˶)</li>
         <br>
@@ -48,23 +54,31 @@
 
     <br>
 
-     <label>notes</label>
+    <label>notes</label>
     <input type="text" id="input">
 
-     <label>wave color</label>
+    <label>wave color</label>
     <input type="color" id="color" value="#FFBFE3">
 
     <label>volume</label>
     <input type="range" min="1" max="100" value="100" id="vol-slider">
 
-    <label>line thickness</label>
-    <input id="thickness-slider" type="range" min="1" max="10" value="2">
+    <label for="wave-type">Wave Type:</label>
+    <select id="wave-type">
+        <option value="sine">Sine</option>
+        <option value="square">Square</option>
+        <option value="triangle">Triangle</option>
+        <option value="sawtooth">Sawtooth</option>
+    </select>
+
+<button id="record" onclick="toggle()">Start Recording</button>
 
     <button id="submit" onclick="handle()">⋆✴︎˚ Submit ｡𖦹°⋆</button>
 
     <br>
 
-    <div id=”container”>  
+    <div id="container">
+
         <canvas id="canvas">
 
 
@@ -73,8 +87,9 @@
 
     <br>
 
-    <p style="color: rgb(226, 176, 197);"><em>⏔⏔⏔ ⋆˚࿔ made for hack club's athena award ꒰ ᧔ෆ᧓ ꒱ ⏔⏔⏔</em></p>
+    <p style="color: #e2b0c5;"><em>⏔⏔⏔ ⋆˚࿔ made for hack club's athena award ꒰ ᧔ෆ᧓ ꒱ ⏔⏔⏔</em></p>
     <br>
     <script src="main.js"></script>
 </body>
+
 </html>
