@@ -171,11 +171,11 @@ var is_recording = false;
 function toggle(){
     is_recording = !is_recording;
     if(is_recording) {
-        recording_toggle.innerHTML = "Stop Recording";
+        recording_toggle.innerHTML = "｡𖦹°⭒ Stop Recording ⋆ ✮⋆";
         startRecording();
     }
     else {
-        recording_toggle.innerHTML = "Start Recording";
+        recording_toggle.innerHTML = "｡𖦹°⭒ Start Recording ⋆ ✮⋆";
         recorder.stop();
     }
 }
